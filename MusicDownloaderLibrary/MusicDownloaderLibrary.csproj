@@ -4,4 +4,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SpotifyAPI.Web" Version="7.0.0" />
+    <PackageReference Include="SpotifyAPI.Web.Auth" Version="7.0.0" />
+    <ProjectReference Include="..\DeezerApi\DeezerApi.csproj" />
+    <ProjectReference Include="..\ConvertAudioLibrary\ConvertAudioLibrary.csproj" />
+    <ProjectReference Include="..\SpotifyClass\SpotifyClass.csproj" />
+    <ProjectReference Include="..\DeezerApi\DeezerApi.csproj" />
+    <ProjectReference Include="..\MusixmathSearch\MusixmathSearch.csproj" />
+    <ProjectReference Include="..\YtmusicSearch\YtmusicSearch.csproj" />
+    <PackageReference Include="YoutubeExplode" Version="6.2.5" />
+    <PackageReference Include="YTSearch.NET" Version="1.0.1" />
+</ItemGroup>
 </Project>
