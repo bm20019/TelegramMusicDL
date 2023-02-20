@@ -273,6 +273,9 @@
       "YtmusicSearch/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "YoutubeExplode": "6.2.5"
+        },
         "compile": {
           "bin/placeholder/YtmusicSearch.dll": {}
         },
