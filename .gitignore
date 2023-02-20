@@ -12,3 +12,5 @@ TelegramBotMusic/bin/
 TelegramBotMusic/obj/Debug/
 YtmusicSearch/bin/
 YtmusicSearch/obj/Debug/
+TelegramBotMusic/.env
+SpotifyClass/.env
