@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "se9O1yinue5cimSaaXhD0VikuSpM2/pwE/uzpYAy5BA5uGBr7AttMP7kj4mLTcBkVvv1Gvb5u5O2voNh+JjsOA==",
+  "dgSpecHash": "u0sh8686D5E++mEmI/qfqYmk8J+bf0hV/+Z55Q2lGe4bz+gMp3ilYbWjNgP9bqkxilQWjyfsFZI7rZuHSBSaHQ==",
   "success": true,
   "projectFilePath": "/home/adalberto/Proyectos/TelegramMusicDL/MusicDownloaderLibrary/MusicDownloaderLibrary.csproj",
   "expectedPackageFiles": [
     "/home/adalberto/.nuget/packages/anglesharp/0.17.0/anglesharp.0.17.0.nupkg.sha512",
     "/home/adalberto/.nuget/packages/embedio/3.5.2/embedio.3.5.2.nupkg.sha512",
+    "/home/adalberto/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512",
     "/home/adalberto/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "/home/adalberto/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/home/adalberto/.nuget/packages/spotifyapi.web/7.0.0/spotifyapi.web.7.0.0.nupkg.sha512",

@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "RHkxaedHYdXVY9ugC4LnrxYEpgvlmTlusuW5AYCE/LPrW+/g6n6EYCQe5M6iy4eJE/ZeSGEFiMjte1nLpdUq0Q==",
+  "dgSpecHash": "or1wow+aaEmkWRk1dVVY84ge2K6b4Sd7wlhNW+y7ZdTpwXXC5C2q6NrrqDr0ctvFYWSGIoPFfmTn4MHpbVtAbg==",
   "success": true,
   "projectFilePath": "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/MusixmathSearch.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/adalberto/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
   "logs": []
 }
