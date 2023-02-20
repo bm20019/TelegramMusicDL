@@ -1,8 +1,17 @@
 {
   "version": 2,
-  "dgSpecHash": "GgVpGUkEb2zgrPxiTjWmKb+kHlfBu5U646MNXkBiJH2dT6XB93WpXmTqzHUWTyemZSyxw4scaS4rm6y9RBacPw==",
+  "dgSpecHash": "dnCt6BO0oloP571eYyUJc9Se97TUeTgsHFR6lGOsZdYsPiNLdE3Goq9XPsWXhk5SCuwkyvRgKmjKSUbBg98PSw==",
   "success": true,
   "projectFilePath": "/home/adalberto/Proyectos/TelegramMusicDL/ConvertAudioLibrary/ConvertAudioLibrary.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/adalberto/.nuget/packages/embedio/3.5.2/embedio.3.5.2.nupkg.sha512",
+    "/home/adalberto/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
+    "/home/adalberto/.nuget/packages/spotifyapi.web/7.0.0/spotifyapi.web.7.0.0.nupkg.sha512",
+    "/home/adalberto/.nuget/packages/spotifyapi.web.auth/7.0.0/spotifyapi.web.auth.7.0.0.nupkg.sha512",
+    "/home/adalberto/.nuget/packages/system.valuetuple/4.5.0/system.valuetuple.4.5.0.nupkg.sha512",
+    "/home/adalberto/.nuget/packages/taglibsharp/2.3.0/taglibsharp.2.3.0.nupkg.sha512",
+    "/home/adalberto/.nuget/packages/unosquare.swan.lite/3.1.0/unosquare.swan.lite.3.1.0.nupkg.sha512",
+    "/home/adalberto/.nuget/packages/xabe.ffmpeg/5.2.3/xabe.ffmpeg.5.2.3.nupkg.sha512"
+  ],
   "logs": []
 }

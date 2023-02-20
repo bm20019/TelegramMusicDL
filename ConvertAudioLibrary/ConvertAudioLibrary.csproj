@@ -4,4 +4,14 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+        <PackageReference Include="TagLibSharp" Version="2.3.0" />
+        <PackageReference Include="Xabe.FFmpeg" Version="5.2.3" />
+        <PackageReference Include="SpotifyAPI.Web" Version="7.0.0" />
+        <PackageReference Include="SpotifyAPI.Web.Auth" Version="7.0.0" />
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\DeezerApi\DeezerApi.csproj" />
+        <ProjectReference Include="..\SpotifyClass\SpotifyClass.csproj" />
+    </ItemGroup>
 </Project>
