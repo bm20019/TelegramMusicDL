@@ -64,8 +64,15 @@ class Config
     }
     private void CreateToken()
     {
+        string pathENV = Path.Combine(new FileInfo(Environment.GetCommandLineArgs()[0]).Directory.FullName,".env");
+        Load(pathENV);
+        string clienId = Environment.GetEnvironmentVariable("ClientID");
+        string clientSecret = Environment.GetEnvironmentVariable("ClientSecret");
+        if(string.IsNullOrEmpty(clienId) || string.IsNullOrEmpty(clientSecret))
+            throw new ArgumentNullException("ClientId or ClientSecret is null");
+
         var config = SpotifyClientConfig.CreateDefault();
-        ClientCredentialsRequest request = new ClientCredentialsRequest("5f573c9620494bae87890c0f08a60293", "212476d9b0f3472eaa762d90b19b0ba8");
+        ClientCredentialsRequest request = new ClientCredentialsRequest(clienId, clientSecret);
         ClientCredentialsTokenResponse response = new OAuthClient(config).RequestToken(request).Result;
         spotifyClient = new SpotifyClient(response.AccessToken, response.TokenType);
         File.WriteAllText(TokenFile, response.ToJson());
@@ -110,6 +117,23 @@ class Config
     public string GetFolderTemp()
     {
         return folderTemp;
+    }
+
+    private static void Load(string filePath)
+    {
+        if (!File.Exists(filePath))
+            throw new FileNotFoundException("El archivo de variable no existe");
+
+        foreach (var line in File.ReadAllLines(filePath))
+        {
+            var parts = line.Split(
+                '=',
+                StringSplitOptions.RemoveEmptyEntries);
+
+            if (parts.Length != 2)
+                continue;
+            Environment.SetEnvironmentVariable(parts[0], parts[1]);
+        }
     }
 }
 
