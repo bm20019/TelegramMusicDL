@@ -1,7 +1,7 @@
 ConvertAudioLibrary/bin/
 ConvertAudioLibrary/obj/
 DeezerApi/bin/
-DeezerApi/obj/Debug/
+DeezerApi/obj/
 MusicDownloaderLibrary/bin/
 MusicDownloaderLibrary/obj/
 MusixmathSearch/bin/
@@ -17,3 +17,6 @@ SpotifyClass/.env
 TestCode/bin/
 TestCode/obj/
 TestCode/.env
+GeniusLyricsLibrary/bin/
+GeniusLyricsLibrary/obj
+

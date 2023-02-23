@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "f+u1YuIr4UeXZXyzSz7PKvHsisifTbWkkshfH/mDDKpqFLwdADM6Cnq8XngwG9cxOrXo2GBiwDe9CiffkYQXfg==",
+  "dgSpecHash": "2Zw2unGsLxYddbFgIKrMbOII7bY655lQLAwOMJwABP8aq/6ZXe20QghPy3QaU6i2WrbjZ77Z/4wfyD2y0WhPGg==",
   "success": true,
   "projectFilePath": "/home/adalberto/Proyectos/TelegramMusicDL/TestCode/TestCode.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/home/adalberto/.nuget/packages/htmlagilitypack/1.11.46/htmlagilitypack.1.11.46.nupkg.sha512"
+  ],
   "logs": []
 }

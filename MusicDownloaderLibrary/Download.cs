@@ -22,7 +22,7 @@ namespace MusicDownloaderLibrary
             config = new Config();
             config.Inicializar();
         }
-        
+
         Action<Uri, string> downloadPictureUri = delegate (Uri url, string outputFile)
         {
             WebClient wc = new WebClient();
@@ -94,11 +94,11 @@ namespace MusicDownloaderLibrary
             {
                 urlMusic = urlMusic.Replace("music.youtube.com", "www.youtube.com");
                 SearchYtMusic SytMusic = new SearchYtMusic();
-                MusicData md = SytMusic.GeMusicDataforUrl(urlMusic.Replace("www.youtube.com","music.youtube.com")).Result;
+                MusicData md = SytMusic.GeMusicDataforUrl(urlMusic.Replace("www.youtube.com", "music.youtube.com")).Result;
                 pathPicute = Path.Combine(GetTempFolder(), Guid.NewGuid().ToString() + ".jpeg");
                 PictureArtUrl = md.PictureUrl;
                 downloadPictureUri(new Uri(PictureArtUrl), pathPicute);
-                datos = new Metadata(config.GetDateTimeWordl(), md.Id, md.Title,"", md.Album,new string[]{md.Artist},"", new string[] { md.Artist }, 0, 0, 1, 0, Convert.ToUInt32(md.Year), "", new string[] { "Unknown" }, "", "", "", "", "", pathPicute);
+                datos = new Metadata(config.GetDateTimeWordl(), md.Id, md.Title, "", md.Album, new string[] { md.Artist }, "", new string[] { md.Artist }, 0, 0, 1, 0, Convert.ToUInt32(md.Year), "", new string[] { "Unknown" }, "", "", "", "", "", pathPicute);
                 urlDownloader = urlMusic;
                 QueryLyrics = $"{datos.Title} - {datos.Performers[0]}";
             }
@@ -108,28 +108,38 @@ namespace MusicDownloaderLibrary
                 return;
             }
             //Get Lyrics
+            try
+            {
+                datos.Lyrics = GetLyrics(QueryLyrics);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine("Musixmatch not Lyrics found\nSearch with Genius");
+                GeniusLyricsLibrary.GeniusApi Ga = new GeniusLyricsLibrary.GeniusApi();
                 try
                 {
-                    datos.Lyrics = GetLyrics(QueryLyrics);
+                    string lyrics = await Ga.GetLyricsforSearch("Hermoso nombre Hillsong");
+                    datos.Lyrics = lyrics;
                 }
-                catch (Exception ex)
+                catch (Exception exp)
                 {
-                    Console.WriteLine("Lyrics not found");
+                    Console.WriteLine("Lyrics not Found");
                 }
-                
-                //Descargar File
-                datos.Comment = urlDownloader;
-                datos.Title = datos.Title.Replace('/', '_').Replace('\\', '_');
-                ruta = Path.Combine(GetTempFolder(), datos.id + extension);
-                await DownloadAudio(urlDownloader,ruta);
-                //Convertir File
-                ConvertAudio ca = new ConvertAudio();
-                string output = Path.Combine(directoryOutput.FullName, pattern);
-                string outputFinal = await ca.ConversionAsync(ruta, output, datos, codec, bitrate);
-                metadata = datos;
-                path = outputFinal;
-                //Incrustar metadatos
-                Console.WriteLine("Exito");
+            }
+
+            //Descargar File
+            datos.Comment = urlDownloader;
+            datos.Title = datos.Title.Replace('/', '_').Replace('\\', '_');
+            ruta = Path.Combine(GetTempFolder(), datos.id + extension);
+            await DownloadAudio(urlDownloader, ruta);
+            //Convertir File
+            ConvertAudio ca = new ConvertAudio();
+            string output = Path.Combine(directoryOutput.FullName, pattern);
+            string outputFinal = await ca.ConversionAsync(ruta, output, datos, codec, bitrate);
+            metadata = datos;
+            path = outputFinal;
+            //Incrustar metadatos
+            Console.WriteLine("Exito");
         }
 
         public Metadata GetDataInfo(string urlMusic)
@@ -146,28 +156,35 @@ namespace MusicDownloaderLibrary
                 SpotifyClass.ModelSpotify modelSpotify = spotifyClass.GetFullData(urlMusic);
                 PictureArtUrl = modelSpotify.GetCovertArtMax().AbsoluteUri;
                 return new Metadata(modelSpotify, PictureArtUrl);
-            }else if(server == Servidor.Deezer){
+            }
+            else if (server == Servidor.Deezer)
+            {
                 DeezerClass dc = new DeezerClass();
                 Deezer? dz = dc.GetDeezer(urlMusic);
                 if (dz == null)
                     throw new Exception("Deezer return null");
                 PictureArtUrl = dz.album.cover_big.AbsoluteUri;
                 return new Metadata(dz, PictureArtUrl);
-            }else if(server == Servidor.YouTubeVideo)
+            }
+            else if (server == Servidor.YouTubeVideo)
             {
                 var youtube = new YoutubeClient();
                 var video = youtube.Videos.GetAsync(urlMusic).Result;
                 PictureArtUrl = "https://www.gstatic.com/youtube/img/web/monochrome/logo_512x512.png";
                 return new Metadata(config.GetDateTimeWordl(), Guid.NewGuid().ToString(), video.Title, "", "Unknown", new string[] { video.Author.ChannelTitle }, "", new string[] { video.Author.ChannelTitle }, 0, 0, 0, 0, 0, "", new string[] { "Unknown" }, "", "", "", "", "", PictureArtUrl);
-            }else if(server == Servidor.youtubeMusic){
+            }
+            else if (server == Servidor.youtubeMusic)
+            {
                 SearchYtMusic sytMusic = new SearchYtMusic();
-                MusicData md = sytMusic.GeMusicDataforUrl(urlMusic.Replace("www.youtube.com","music.youtube.com")).Result;
+                MusicData md = sytMusic.GeMusicDataforUrl(urlMusic.Replace("www.youtube.com", "music.youtube.com")).Result;
                 PictureArtUrl = md.PictureUrl;
                 Console.WriteLine(md.Year);
-                return new Metadata(config.GetDateTimeWordl(), md.Id, md.Title,"", md.Album,new string[]{md.Artist},"", new string[] { md.Artist }, 0, 0, 1, 0, Convert.ToUInt32(md.Year), "", new string[] { "Unknown" }, "", "", "", "", "", md.PictureUrl);
-            }else{
+                return new Metadata(config.GetDateTimeWordl(), md.Id, md.Title, "", md.Album, new string[] { md.Artist }, "", new string[] { md.Artist }, 0, 0, 1, 0, Convert.ToUInt32(md.Year), "", new string[] { "Unknown" }, "", "", "", "", "", md.PictureUrl);
+            }
+            else
+            {
                 string urlNull = "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/NULL.jpg/640px-NULL.jpg";
-                return new Metadata(config.GetDateTimeWordl(),Guid.NewGuid().ToString(),"Null","Null","Null",new string[]{"null"}, "null",new string[] {"null"},0,0,0,0,0,"null",new string[]{"null"},"null","null","null","null","null",urlNull);
+                return new Metadata(config.GetDateTimeWordl(), Guid.NewGuid().ToString(), "Null", "Null", "Null", new string[] { "null" }, "null", new string[] { "null" }, 0, 0, 0, 0, 0, "null", new string[] { "null" }, "null", "null", "null", "null", "null", urlNull);
             }
         }
         public async Task MusicDownload(string urlMusic,
@@ -211,8 +228,8 @@ namespace MusicDownloaderLibrary
             YoutubeClient youtube = new YoutubeClient();
             StreamManifest streamManifest = await youtube.Videos.Streams.GetManifestAsync(url);
             IStreamInfo streamInfo = streamManifest.GetAudioOnlyStreams().GetWithHighestBitrate();
-            IProgress<double> progress = new Progress<double>(s => Console.Write(String.Format("{0}/{1}MB...\r",Convert.ToInt32(s*100),streamInfo.Size.MegaBytes)));
-            await youtube.Videos.Streams.DownloadAsync(streamInfo, pathOutput,progress);
+            IProgress<double> progress = new Progress<double>(s => Console.Write(String.Format("{0}/{1}MB...\r", Convert.ToInt32(s * 100), streamInfo.Size.MegaBytes)));
+            await youtube.Videos.Streams.DownloadAsync(streamInfo, pathOutput, progress);
         }
     }
 }

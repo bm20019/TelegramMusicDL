@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "YtmusicSearch", "YtmusicSea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelegramBotMusic", "TelegramBotMusic\TelegramBotMusic.csproj", "{70769830-6B33-4FE4-9371-4977A1E2A2C5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GeniusLyricsLibrary", "GeniusLyricsLibrary\GeniusLyricsLibrary.csproj", "{9D6306DA-FAEF-44C5-91C0-BB4CDF411C86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -60,5 +62,9 @@ Global
 		{70769830-6B33-4FE4-9371-4977A1E2A2C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70769830-6B33-4FE4-9371-4977A1E2A2C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70769830-6B33-4FE4-9371-4977A1E2A2C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D6306DA-FAEF-44C5-91C0-BB4CDF411C86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D6306DA-FAEF-44C5-91C0-BB4CDF411C86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D6306DA-FAEF-44C5-91C0-BB4CDF411C86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D6306DA-FAEF-44C5-91C0-BB4CDF411C86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -1,0 +1,1711 @@
+{
+    "currentPage": "songPage",
+    "deviceType": "desktop",
+    "session": {
+        "cmpEnabled": false,
+        "showAds": true,
+        "logClientMetrics": false,
+        "fringeEnabled": true,
+        "features": [
+            "song_stories_public_launch"
+        ]
+    },
+    "songPage": {
+        "isPrimisAtf": false,
+        "s3CacheExperiment": null,
+        "song": 1999668,
+        "pinnedQuestions": [],
+        "lyricsData": {
+            "referents": [],
+            "body": {
+                "html": "<p>Creaste el sol y las estrellas<br>\\nLos pintaste de color<br>\\nNos creaste y diste vida<br>\\nNos llenaste de tu amor<br>\\nLos que estaban en tinieblas<br>\\nEn nosotros ven tu luz<br>\\nIlumina nuestros rostros<br>\\nCon la gloria de tu cruz<br>\\n<br>\\nCoro:<br>\\nEnciendenos, Alumbranos<br>\\nPara luz del mundo ser<br>\\nY brillar con tu poder<br>\\nAvivanos, Iluminanos<br>\\nY que el mundo pueda ver<br>\\nTu amor resplandecer<br>\\n<br>\\nPuente:<br>\\nTu gloria, Dios eterno brilla<br>\\nMas que el sol, tu gloria<br>\\nAlumbra mi ciudad<\/p>\\n\\n",
+                "children": [
+                    {
+                        "children": [
+                            "Creaste el sol y las estrellas",
+                            {
+                                "tag": "br"
+                            },
+                            "Los pintaste de color",
+                            {
+                                "tag": "br"
+                            },
+                            "Nos creaste y diste vida",
+                            {
+                                "tag": "br"
+                            },
+                            "Nos llenaste de tu amor",
+                            {
+                                "tag": "br"
+                            },
+                            "Los que estaban en tinieblas",
+                            {
+                                "tag": "br"
+                            },
+                            "En nosotros ven tu luz",
+                            {
+                                "tag": "br"
+                            },
+                            "Ilumina nuestros rostros",
+                            {
+                                "tag": "br"
+                            },
+                            "Con la gloria de tu cruz",
+                            {
+                                "tag": "br"
+                            },
+                            "",
+                            {
+                                "tag": "br"
+                            },
+                            "Coro:",
+                            {
+                                "tag": "br"
+                            },
+                            "Enciendenos, Alumbranos",
+                            {
+                                "tag": "br"
+                            },
+                            "Para luz del mundo ser",
+                            {
+                                "tag": "br"
+                            },
+                            "Y brillar con tu poder",
+                            {
+                                "tag": "br"
+                            },
+                            "Avivanos, Iluminanos",
+                            {
+                                "tag": "br"
+                            },
+                            "Y que el mundo pueda ver",
+                            {
+                                "tag": "br"
+                            },
+                            "Tu amor resplandecer",
+                            {
+                                "tag": "br"
+                            },
+                            "",
+                            {
+                                "data": {
+                                    "name": "primis_desktop_song_player"
+                                },
+                                "tag": "primis-player"
+                            },
+                            "Puente:",
+                            {
+                                "tag": "br"
+                            },
+                            "Tu gloria, Dios eterno brilla",
+                            {
+                                "tag": "br"
+                            },
+                            "Mas que el sol, tu gloria",
+                            {
+                                "tag": "br"
+                            },
+                            "Alumbra mi ciudad"
+                        ],
+                        "tag": "p"
+                    },
+                    ""
+                ],
+                "tag": "root"
+            },
+            "lyricsPlaceholderReason": null,
+            "clientTimestamps": {
+                "updatedByHumanAt": 1563744886,
+                "lyricsUpdatedAt": 1432941545
+            }
+        },
+        "hotSongsPreview": [
+            {
+                "url": "https://genius.com/Burger-king-whopper-whopper-lyrics",
+                "title": "Whopper Whopper",
+                "id": 8749069
+            },
+            {
+                "url": "https://genius.com/Sza-kill-bill-lyrics",
+                "title": "Kill Bill",
+                "id": 8616820
+            },
+            {
+                "url": "https://genius.com/Solar-nigdy-wiecej-2022-lyrics",
+                "title": "​nigdy więcej 2022",
+                "id": 8852320
+            },
+            {
+                "url": "https://genius.com/The-national-new-order-t-shirt-lyrics",
+                "title": "New Order T-Shirt",
+                "id": 8714084
+            },
+            {
+                "url": "https://genius.com/Quavo-greatness-lyrics",
+                "title": "Greatness",
+                "id": 8854441
+            }
+        ],
+        "featuredQuestion": null,
+        "showFeaturedQuestion": false,
+        "pendingQuestionCount": 0,
+        "dfpKv": [
+            {
+                "values": [
+                    "1999668"
+                ],
+                "name": "song_id"
+            },
+            {
+                "values": [
+                    "Ilumina"
+                ],
+                "name": "song_title"
+            },
+            {
+                "values": [
+                    "351872"
+                ],
+                "name": "artist_id"
+            },
+            {
+                "values": [
+                    "Marco Barrientos"
+                ],
+                "name": "artist_name"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "is_explicit"
+            },
+            {
+                "values": [
+                    "89"
+                ],
+                "name": "pageviews"
+            },
+            {
+                "values": [
+                    "16"
+                ],
+                "name": "primary_tag_id"
+            },
+            {
+                "values": [
+                    "pop"
+                ],
+                "name": "primary_tag"
+            },
+            {
+                "values": [
+                    "2586",
+                    "16"
+                ],
+                "name": "tag_id"
+            },
+            {
+                "values": [
+                    "E"
+                ],
+                "name": "song_tier"
+            },
+            {
+                "values": [],
+                "name": "topic"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "in_top_10"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "artist_in_top_10"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "album_in_top_10"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "new_release"
+            },
+            {
+                "values": [
+                    "201201"
+                ],
+                "name": "release_month"
+            },
+            {
+                "values": [
+                    "2012"
+                ],
+                "name": "release_year"
+            },
+            {
+                "values": [
+                    "2010"
+                ],
+                "name": "release_decade"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "stubhub_is_active"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "in_top_10_rap"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "in_top_10_rock"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "in_top_10_country"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "in_top_10_r_and_b"
+            },
+            {
+                "values": [
+                    "false"
+                ],
+                "name": "in_top_10_pop"
+            },
+            {
+                "values": [
+                    "production"
+                ],
+                "name": "environment"
+            },
+            {
+                "values": [
+                    "web"
+                ],
+                "name": "platform"
+            },
+            {
+                "values": [
+                    "desktop_react"
+                ],
+                "name": "platform_variant"
+            },
+            {
+                "values": [
+                    "control"
+                ],
+                "name": "interstitial_variant"
+            },
+            {
+                "values": [
+                    "song"
+                ],
+                "name": "ad_page_type"
+            }
+        ],
+        "trackingData": [
+            {
+                "value": 1999668,
+                "key": "Song ID"
+            },
+            {
+                "value": "Ilumina",
+                "key": "Title"
+            },
+            {
+                "value": "Marco Barrientos",
+                "key": "Primary Artist"
+            },
+            {
+                "value": 351872,
+                "key": "Primary Artist ID"
+            },
+            {
+                "value": "Ilumina",
+                "key": "Primary Album"
+            },
+            {
+                "value": 546275,
+                "key": "Primary Album ID"
+            },
+            {
+                "value": "pop",
+                "key": "Tag"
+            },
+            {
+                "value": "pop",
+                "key": "Primary Tag"
+            },
+            {
+                "value": 16,
+                "key": "Primary Tag ID"
+            },
+            {
+                "value": true,
+                "key": "Music?"
+            },
+            {
+                "value": "Song",
+                "key": "Annotatable Type"
+            },
+            {
+                "value": 1999668,
+                "key": "Annotatable ID"
+            },
+            {
+                "value": false,
+                "key": "featured_video"
+            },
+            {
+                "value": [],
+                "key": "cohort_ids"
+            },
+            {
+                "value": false,
+                "key": "has_verified_callout"
+            },
+            {
+                "value": false,
+                "key": "has_featured_annotation"
+            },
+            {
+                "value": "2015-05-29T23:19:05Z",
+                "key": "created_at"
+            },
+            {
+                "value": "2015-05-01",
+                "key": "created_month"
+            },
+            {
+                "value": 2015,
+                "key": "created_year"
+            },
+            {
+                "value": "E",
+                "key": "song_tier"
+            },
+            {
+                "value": false,
+                "key": "Has Recirculated Articles"
+            },
+            {
+                "value": "es",
+                "key": "Lyrics Language"
+            },
+            {
+                "value": true,
+                "key": "Has Apple Match"
+            },
+            {
+                "value": "2012-01-01",
+                "key": "Release Date"
+            },
+            {
+                "value": null,
+                "key": "NRM Tier"
+            },
+            {
+                "value": null,
+                "key": "NRM Target Date"
+            },
+            {
+                "value": false,
+                "key": "Has Description"
+            },
+            {
+                "value": false,
+                "key": "Has Youtube URL"
+            },
+            {
+                "value": false,
+                "key": "Has Translation Q&A"
+            },
+            {
+                "value": 0,
+                "key": "Comment Count"
+            },
+            {
+                "value": false,
+                "key": "hot"
+            },
+            {
+                "value": true,
+                "key": "has_recommendations"
+            },
+            {
+                "value": false,
+                "key": "has_stubhub_artist"
+            },
+            {
+                "value": false,
+                "key": "has_stubhub_link"
+            },
+            {
+                "value": false,
+                "key": "Translation"
+            },
+            {
+                "value": "control",
+                "key": "web_interstitial_variant"
+            },
+            {
+                "value": "desktop_react",
+                "key": "platform_variant"
+            }
+        ],
+        "title": "Marco Barrientos – Ilumina Lyrics | Genius Lyrics",
+        "path": "/Marco-barrientos-ilumina-lyrics",
+        "pageType": "song",
+        "initialAdUnits": [
+            "desktop_song_inread",
+            "desktop_song_inread2",
+            "desktop_song_inread3",
+            "desktop_song_leaderboard",
+            "desktop_song_lyrics_footer",
+            "desktop_song_marquee",
+            "desktop_song_medium1",
+            "desktop_song_sidebar_top",
+            "desktop_song_recommended_song",
+            "desktop_song_sponsored_minicharts"
+        ],
+        "hotSongsLink": "/hot-songs",
+        "headerBidPlacements": [],
+        "dmpDataLayer": {
+            "page": {
+                "type": "song"
+            }
+        },
+        "controllerAndAction": "songs#show",
+        "chartbeat": {
+            "title": "Marco Barrientos – Ilumina Lyrics | Genius Lyrics",
+            "sections": "songs,tag:pop",
+            "authors": "Marco Barrientos"
+        }
+    },
+    "entities": {
+        "artists": {
+            "351872": {
+                "url": "https://genius.com/artists/Marco-barrientos",
+                "slug": "Marco-barrientos",
+                "name": "Marco Barrientos",
+                "isVerified": false,
+                "isMemeVerified": false,
+                "indexCharacter": "m",
+                "imageUrl": "https://images.genius.com/c6b215df45cf21ab77eb509a5c0c4726.512x512x1.jpg",
+                "id": 351872,
+                "headerImageUrl": "https://images.genius.com/c6b215df45cf21ab77eb509a5c0c4726.512x512x1.jpg",
+                "apiPath": "/artists/351872",
+                "type": "artist"
+            }
+        },
+        "songs": {
+            "1999668": {
+                "url": "https://genius.com/Marco-barrientos-ilumina-lyrics",
+                "title": "Ilumina",
+                "path": "/Marco-barrientos-ilumina-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 1999668,
+                "apiPath": "/songs/1999668",
+                "type": "song",
+                "writerArtists": [],
+                "verifiedLyricsBy": [],
+                "verifiedContributors": [],
+                "verifiedAnnotationsBy": [],
+                "translationSongs": [],
+                "topScholar": {
+                    "user": {
+                        "currentUserMetadata": {
+                            "interactions": {
+                                "following": false
+                            },
+                            "excludedPermissions": [
+                                "follow"
+                            ],
+                            "permissions": []
+                        },
+                        "url": "https://genius.com/thesokka",
+                        "roleForDisplay": "contributor",
+                        "name": "thesokka",
+                        "login": "thesokka",
+                        "isVerified": false,
+                        "isMemeVerified": false,
+                        "iq": 54455,
+                        "id": 5706090,
+                        "humanReadableRoleForDisplay": "Contributor",
+                        "headerImageUrl": "https://s3.amazonaws.com/filepicker-images-rapgenius/b2ajh8f3d5b",
+                        "avatar": {
+                            "medium": {
+                                "boundingBox": {
+                                    "height": 400,
+                                    "width": 300
+                                },
+                                "url": "https://s3.amazonaws.com/filepicker-images-rapgenius/q7221hbjhk"
+                            },
+                            "small": {
+                                "boundingBox": {
+                                    "height": 100,
+                                    "width": 100
+                                },
+                                "url": "https://s3.amazonaws.com/filepicker-images-rapgenius/q7221hbjhk"
+                            },
+                            "thumb": {
+                                "boundingBox": {
+                                    "height": 32,
+                                    "width": 32
+                                },
+                                "url": "https://s3.amazonaws.com/filepicker-images-rapgenius/q7221hbjhk"
+                            },
+                            "tiny": {
+                                "boundingBox": {
+                                    "height": 16,
+                                    "width": 16
+                                },
+                                "url": "https://s3.amazonaws.com/filepicker-images-rapgenius/q7221hbjhk"
+                            }
+                        },
+                        "apiPath": "/users/5706090",
+                        "aboutMeSummary": "Translator and grammarist.",
+                        "type": "user"
+                    },
+                    "pinnedRole": null,
+                    "attributionValue": 4,
+                    "type": "user_attribution"
+                },
+                "tags": [
+                    {
+                        "url": "https://genius.com/tags/en-espanol",
+                        "primary": false,
+                        "name": "En Español",
+                        "id": 2586,
+                        "type": "tag"
+                    },
+                    {
+                        "url": "https://genius.com/tags/pop",
+                        "primary": true,
+                        "name": "Pop",
+                        "id": 16,
+                        "type": "tag"
+                    }
+                ],
+                "songRelationships": [
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "samples"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "sampled_in"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "interpolates"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "interpolated_by"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "cover_of"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "covered_by"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "remix_of"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "remixed_by"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "live_version_of"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "performed_live_as"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "translation_of"
+                    },
+                    {
+                        "songs": [],
+                        "type": "song_relationship",
+                        "relationshipType": "translations"
+                    }
+                ],
+                "producerArtists": [],
+                "primaryTag": {
+                    "url": "https://genius.com/tags/pop",
+                    "primary": true,
+                    "name": "Pop",
+                    "id": 16,
+                    "type": "tag"
+                },
+                "primaryArtist": 351872,
+                "media": [],
+                "lyricsMarkedStaffApprovedBy": null,
+                "lyricsMarkedCompleteBy": null,
+                "featuredArtists": [],
+                "descriptionAnnotation": 6687176,
+                "customPerformances": [],
+                "albums": [
+                    {
+                        "tracklist": [
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-ilumina-lyrics",
+                                    "title": "Ilumina",
+                                    "path": "/Marco-barrientos-ilumina-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 1999668,
+                                    "apiPath": "/songs/1999668",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 1,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-lo-hiciste-por-mi-lyrics",
+                                    "title": "Lo hiciste por mí",
+                                    "path": "/Marco-barrientos-lo-hiciste-por-mi-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2071778,
+                                    "apiPath": "/songs/2071778",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 3,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-nada-es-imposible-lyrics",
+                                    "title": "Nada es imposible",
+                                    "path": "/Marco-barrientos-nada-es-imposible-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2052682,
+                                    "apiPath": "/songs/2052682",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 4,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-no-me-ire-lyrics",
+                                    "title": "No Me Iré",
+                                    "path": "/Marco-barrientos-no-me-ire-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2209538,
+                                    "apiPath": "/songs/2209538",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 5,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-nadie-como-nuestro-dios-lyrics",
+                                    "title": "Nadie Como Nuestro Dios",
+                                    "path": "/Marco-barrientos-nadie-como-nuestro-dios-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2222520,
+                                    "apiPath": "/songs/2222520",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 6,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-interludio-lyrics",
+                                    "title": "Interludio",
+                                    "path": "/Marco-barrientos-interludio-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2230016,
+                                    "apiPath": "/songs/2230016",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 7,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-tu-luz-brilla-lyrics",
+                                    "title": "Tu luz brilla",
+                                    "path": "/Marco-barrientos-tu-luz-brilla-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2065038,
+                                    "apiPath": "/songs/2065038",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 8,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-aqui-estoy-lyrics",
+                                    "title": "Aqui estoy",
+                                    "path": "/Marco-barrientos-aqui-estoy-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2009066,
+                                    "apiPath": "/songs/2009066",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 9,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-instrumental-lyrics",
+                                    "title": "Instrumental",
+                                    "path": "/Marco-barrientos-instrumental-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": null,
+                                    "id": 2191869,
+                                    "apiPath": "/songs/2191869",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 10,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-solo-tu-eres-mi-dios-lyrics",
+                                    "title": "Sólo tú eres mi dios",
+                                    "path": "/Marco-barrientos-solo-tu-eres-mi-dios-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2077809,
+                                    "apiPath": "/songs/2077809",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 11,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-fuente-de-vida-lyrics",
+                                    "title": "Fuente de Vida",
+                                    "path": "/Marco-barrientos-fuente-de-vida-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2223828,
+                                    "apiPath": "/songs/2223828",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 12,
+                                "type": "album_appearance"
+                            },
+                            {
+                                "song": {
+                                    "url": "https://genius.com/Marco-barrientos-vasos-de-barro-lyrics",
+                                    "title": "Vasos de Barro",
+                                    "path": "/Marco-barrientos-vasos-de-barro-lyrics",
+                                    "lyricsState": "complete",
+                                    "language": "es",
+                                    "id": 2199883,
+                                    "apiPath": "/songs/2199883",
+                                    "type": "song"
+                                },
+                                "currentUserMetadata": {
+                                    "excludedPermissions": [],
+                                    "permissions": [
+                                        "view_song"
+                                    ]
+                                },
+                                "number": 14,
+                                "type": "album_appearance"
+                            }
+                        ],
+                        "artist": {
+                            "url": "https://genius.com/artists/Marco-barrientos",
+                            "slug": "Marco-barrientos",
+                            "name": "Marco Barrientos",
+                            "isVerified": false,
+                            "isMemeVerified": false,
+                            "indexCharacter": "m",
+                            "imageUrl": "https://images.genius.com/c6b215df45cf21ab77eb509a5c0c4726.512x512x1.jpg",
+                            "id": 351872,
+                            "headerImageUrl": "https://images.genius.com/c6b215df45cf21ab77eb509a5c0c4726.512x512x1.jpg",
+                            "apiPath": "/artists/351872",
+                            "type": "artist"
+                        },
+                        "url": "https://genius.com/albums/Marco-barrientos/Ilumina",
+                        "releaseDateComponents": {
+                            "day": null,
+                            "month": null,
+                            "year": 2012
+                        },
+                        "nameWithArtist": "Ilumina (artist: Marco Barrientos)",
+                        "name": "Ilumina",
+                        "id": 546275,
+                        "fullTitle": "Ilumina by Marco Barrientos",
+                        "coverArtUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.600x600x1.jpg",
+                        "coverArtThumbnailUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.300x300x1.jpg",
+                        "apiPath": "/albums/546275",
+                        "type": "album"
+                    }
+                ],
+                "album": 546275,
+                "songArtTextColor": "#fff",
+                "songArtSecondaryColor": "#871b20",
+                "songArtPrimaryColor": "#e61d24",
+                "currentUserMetadata": {
+                    "iqByAction": {},
+                    "relationships": {},
+                    "interactions": {
+                        "following": false,
+                        "pyong": false
+                    },
+                    "excludedPermissions": [
+                        "follow",
+                        "award_transcription_iq",
+                        "remove_transcription_iq",
+                        "see_pageviews",
+                        "pyong",
+                        "edit_lyrics",
+                        "view_annotation_engagement_data",
+                        "publish",
+                        "unpublish",
+                        "edit_spotify_details",
+                        "hide",
+                        "unhide",
+                        "toggle_featured_video",
+                        "add_pinned_annotation_to",
+                        "add_community_annotation_to",
+                        "destroy",
+                        "mark_as_not_spam",
+                        "edit_spotify_annotations_for",
+                        "verify_lyrics",
+                        "unverify_lyrics",
+                        "edit_anything",
+                        "edit_any_media",
+                        "edit",
+                        "rename",
+                        "edit_tags",
+                        "reindex",
+                        "view_lyrics_synchronization",
+                        "enable_media",
+                        "disable_media",
+                        "edit_lyrics_or_annotation_brackets",
+                        "see_editorial_indicators",
+                        "view_attribution_visualization",
+                        "edit_annotation_brackets",
+                        "preview_lyrics_for_export",
+                        "hide_apple_player",
+                        "unhide_apple_player",
+                        "trigger_apple_match",
+                        "mark_lyrics_evaluation_as_complete",
+                        "mark_lyrics_evaluation_as_staff_approved",
+                        "unmark_lyrics_evaluation_as_complete",
+                        "mark_lyrics_evaluation_as_un_staff_approved",
+                        "view_transcriber_media_player",
+                        "override_apple_match",
+                        "set_song_color_gradient",
+                        "mark_as_hot",
+                        "unmark_as_hot",
+                        "view_relationships_page",
+                        "edit_youtube_url",
+                        "edit_soundcloud_url",
+                        "edit_spotify_uuid",
+                        "edit_vevo_url",
+                        "moderate_annotations",
+                        "create_annotation",
+                        "see_short_id",
+                        "manage_chart_item",
+                        "create_tag",
+                        "propose_lyrics_edit",
+                        "view_lyrics_edit_proposals_on_song",
+                        "create_question"
+                    ],
+                    "permissions": [
+                        "view_apple_music_player",
+                        "view_recommendations",
+                        "create_comment",
+                        "view_song_story_gallery"
+                    ]
+                },
+                "youtubeUrl": null,
+                "youtubeStart": null,
+                "vttpId": null,
+                "viewableByRoles": [],
+                "updatedByHumanAt": 1563744886,
+                "twitterShareMessageWithoutUrl": "Marco Barrientos – Ilumina",
+                "twitterShareMessage": "Marco Barrientos – Ilumina https://genius.com/Marco-barrientos-ilumina-lyrics",
+                "trackingPaths": {
+                    "concurrent": "/Marco-barrientos-ilumina-lyrics",
+                    "aggregate": "/Marco-barrientos-ilumina-lyrics"
+                },
+                "trackingData": [
+                    {
+                        "value": 1999668,
+                        "key": "Song ID"
+                    },
+                    {
+                        "value": "Ilumina",
+                        "key": "Title"
+                    },
+                    {
+                        "value": "Marco Barrientos",
+                        "key": "Primary Artist"
+                    },
+                    {
+                        "value": 351872,
+                        "key": "Primary Artist ID"
+                    },
+                    {
+                        "value": "Ilumina",
+                        "key": "Primary Album"
+                    },
+                    {
+                        "value": 546275,
+                        "key": "Primary Album ID"
+                    },
+                    {
+                        "value": "pop",
+                        "key": "Tag"
+                    },
+                    {
+                        "value": "pop",
+                        "key": "Primary Tag"
+                    },
+                    {
+                        "value": 16,
+                        "key": "Primary Tag ID"
+                    },
+                    {
+                        "value": true,
+                        "key": "Music?"
+                    },
+                    {
+                        "value": "Song",
+                        "key": "Annotatable Type"
+                    },
+                    {
+                        "value": 1999668,
+                        "key": "Annotatable ID"
+                    },
+                    {
+                        "value": false,
+                        "key": "featured_video"
+                    },
+                    {
+                        "value": [],
+                        "key": "cohort_ids"
+                    },
+                    {
+                        "value": false,
+                        "key": "has_verified_callout"
+                    },
+                    {
+                        "value": false,
+                        "key": "has_featured_annotation"
+                    },
+                    {
+                        "value": "2015-05-29T23:19:05Z",
+                        "key": "created_at"
+                    },
+                    {
+                        "value": "2015-05-01",
+                        "key": "created_month"
+                    },
+                    {
+                        "value": 2015,
+                        "key": "created_year"
+                    },
+                    {
+                        "value": "E",
+                        "key": "song_tier"
+                    },
+                    {
+                        "value": false,
+                        "key": "Has Recirculated Articles"
+                    },
+                    {
+                        "value": "es",
+                        "key": "Lyrics Language"
+                    },
+                    {
+                        "value": true,
+                        "key": "Has Apple Match"
+                    },
+                    {
+                        "value": "2012-01-01",
+                        "key": "Release Date"
+                    },
+                    {
+                        "value": null,
+                        "key": "NRM Tier"
+                    },
+                    {
+                        "value": null,
+                        "key": "NRM Target Date"
+                    },
+                    {
+                        "value": false,
+                        "key": "Has Description"
+                    },
+                    {
+                        "value": false,
+                        "key": "Has Youtube URL"
+                    },
+                    {
+                        "value": false,
+                        "key": "Has Translation Q&A"
+                    },
+                    {
+                        "value": 0,
+                        "key": "Comment Count"
+                    },
+                    {
+                        "value": false,
+                        "key": "hot"
+                    },
+                    {
+                        "value": true,
+                        "key": "has_recommendations"
+                    },
+                    {
+                        "value": false,
+                        "key": "has_stubhub_artist"
+                    },
+                    {
+                        "value": false,
+                        "key": "has_stubhub_link"
+                    },
+                    {
+                        "value": false,
+                        "key": "Translation"
+                    },
+                    {
+                        "value": "control",
+                        "key": "web_interstitial_variant"
+                    },
+                    {
+                        "value": "desktop_react",
+                        "key": "platform_variant"
+                    }
+                ],
+                "titleWithFeatured": "Ilumina",
+                "stats": {
+                    "hot": false,
+                    "verifiedAnnotations": 0,
+                    "unreviewedAnnotations": 0,
+                    "transcribers": 1,
+                    "iqEarners": 1,
+                    "contributors": 2,
+                    "acceptedAnnotations": 0
+                },
+                "spotifyUuid": null,
+                "soundcloudUrl": null,
+                "songArtImageUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.600x600x1.jpg",
+                "songArtImageThumbnailUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.300x300x1.jpg",
+                "shareUrl": "https://genius.com/Marco-barrientos-ilumina-lyrics",
+                "releaseDateWithAbbreviatedMonthForDisplay": null,
+                "releaseDateForDisplay": null,
+                "releaseDateComponents": null,
+                "releaseDate": null,
+                "relationshipsIndexUrl": "https://genius.com/Marco-barrientos-ilumina-sample",
+                "recordingLocation": null,
+                "pyongsCount": null,
+                "pusherChannel": "song-1999668",
+                "published": false,
+                "pendingLyricsEditsCount": 0,
+                "lyricsUpdatedAt": 1432941545,
+                "lyricsPlaceholderReason": null,
+                "lyricsOwnerId": 1549345,
+                "isMusic": true,
+                "instrumental": false,
+                "hidden": false,
+                "headerImageUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.600x600x1.jpg",
+                "headerImageThumbnailUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.300x300x1.jpg",
+                "hasInstagramReelAnnotations": null,
+                "fullTitle": "Ilumina by Marco Barrientos",
+                "featuredVideo": false,
+                "facebookShareMessageWithoutUrl": "Marco Barrientos – Ilumina",
+                "explicit": false,
+                "embedContent":"<div id='rg_embed_link_1999668' class='rg_embed_link' data-song-id='1999668'>Read <a href='https://genius.com/Marco-barrientos-ilumina-lyrics'>“Ilumina” by Marco Barrientos<\/a> on Genius<\/div> <script crossorigin src='//genius.com/songs/1999668/embed.js'><\/script>",
+                "descriptionPreview": "",
+                "description": {
+                    "markdown": "?",
+                    "html": "<p>?<\/p>"
+                },
+                "customSongArtImageUrl": null,
+                "customHeaderImageUrl": null,
+                "commentCount": 0,
+                "artistNames": "Marco Barrientos",
+                "appleMusicPlayerUrl": "https://genius.com/songs/1999668/apple_music_player",
+                "appleMusicId": "544357930",
+                "annotationCount": 1
+            },
+            "2009066": {
+                "url": "https://genius.com/Marco-barrientos-aqui-estoy-lyrics",
+                "title": "Aqui estoy",
+                "path": "/Marco-barrientos-aqui-estoy-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2009066,
+                "apiPath": "/songs/2009066",
+                "type": "song"
+            },
+            "2052682": {
+                "url": "https://genius.com/Marco-barrientos-nada-es-imposible-lyrics",
+                "title": "Nada es imposible",
+                "path": "/Marco-barrientos-nada-es-imposible-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2052682,
+                "apiPath": "/songs/2052682",
+                "type": "song"
+            },
+            "2065038": {
+                "url": "https://genius.com/Marco-barrientos-tu-luz-brilla-lyrics",
+                "title": "Tu luz brilla",
+                "path": "/Marco-barrientos-tu-luz-brilla-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2065038,
+                "apiPath": "/songs/2065038",
+                "type": "song"
+            },
+            "2071778": {
+                "url": "https://genius.com/Marco-barrientos-lo-hiciste-por-mi-lyrics",
+                "title": "Lo hiciste por mí",
+                "path": "/Marco-barrientos-lo-hiciste-por-mi-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2071778,
+                "apiPath": "/songs/2071778",
+                "type": "song"
+            },
+            "2077809": {
+                "url": "https://genius.com/Marco-barrientos-solo-tu-eres-mi-dios-lyrics",
+                "title": "Sólo tú eres mi dios",
+                "path": "/Marco-barrientos-solo-tu-eres-mi-dios-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2077809,
+                "apiPath": "/songs/2077809",
+                "type": "song"
+            },
+            "2191869": {
+                "url": "https://genius.com/Marco-barrientos-instrumental-lyrics",
+                "title": "Instrumental",
+                "path": "/Marco-barrientos-instrumental-lyrics",
+                "lyricsState": "complete",
+                "language": null,
+                "id": 2191869,
+                "apiPath": "/songs/2191869",
+                "type": "song"
+            },
+            "2199883": {
+                "url": "https://genius.com/Marco-barrientos-vasos-de-barro-lyrics",
+                "title": "Vasos de Barro",
+                "path": "/Marco-barrientos-vasos-de-barro-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2199883,
+                "apiPath": "/songs/2199883",
+                "type": "song"
+            },
+            "2209538": {
+                "url": "https://genius.com/Marco-barrientos-no-me-ire-lyrics",
+                "title": "No Me Iré",
+                "path": "/Marco-barrientos-no-me-ire-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2209538,
+                "apiPath": "/songs/2209538",
+                "type": "song"
+            },
+            "2222520": {
+                "url": "https://genius.com/Marco-barrientos-nadie-como-nuestro-dios-lyrics",
+                "title": "Nadie Como Nuestro Dios",
+                "path": "/Marco-barrientos-nadie-como-nuestro-dios-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2222520,
+                "apiPath": "/songs/2222520",
+                "type": "song"
+            },
+            "2223828": {
+                "url": "https://genius.com/Marco-barrientos-fuente-de-vida-lyrics",
+                "title": "Fuente de Vida",
+                "path": "/Marco-barrientos-fuente-de-vida-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2223828,
+                "apiPath": "/songs/2223828",
+                "type": "song"
+            },
+            "2230016": {
+                "url": "https://genius.com/Marco-barrientos-interludio-lyrics",
+                "title": "Interludio",
+                "path": "/Marco-barrientos-interludio-lyrics",
+                "lyricsState": "complete",
+                "language": "es",
+                "id": 2230016,
+                "apiPath": "/songs/2230016",
+                "type": "song"
+            }
+        },
+        "albumAppearances": {
+            "1999668": {
+                "song": 1999668,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 1,
+                "type": "album_appearance"
+            },
+            "2009066": {
+                "song": 2009066,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 9,
+                "type": "album_appearance"
+            },
+            "2052682": {
+                "song": 2052682,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 4,
+                "type": "album_appearance"
+            },
+            "2065038": {
+                "song": 2065038,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 8,
+                "type": "album_appearance"
+            },
+            "2071778": {
+                "song": 2071778,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 3,
+                "type": "album_appearance"
+            },
+            "2077809": {
+                "song": 2077809,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 11,
+                "type": "album_appearance"
+            },
+            "2191869": {
+                "song": 2191869,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 10,
+                "type": "album_appearance"
+            },
+            "2199883": {
+                "song": 2199883,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 14,
+                "type": "album_appearance"
+            },
+            "2209538": {
+                "song": 2209538,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 5,
+                "type": "album_appearance"
+            },
+            "2222520": {
+                "song": 2222520,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 6,
+                "type": "album_appearance"
+            },
+            "2223828": {
+                "song": 2223828,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 12,
+                "type": "album_appearance"
+            },
+            "2230016": {
+                "song": 2230016,
+                "currentUserMetadata": {
+                    "excludedPermissions": [],
+                    "permissions": [
+                        "view_song"
+                    ]
+                },
+                "number": 7,
+                "type": "album_appearance"
+            }
+        },
+        "albums": {
+            "546275": {
+                "tracklist": [
+                    1999668,
+                    2071778,
+                    2052682,
+                    2209538,
+                    2222520,
+                    2230016,
+                    2065038,
+                    2009066,
+                    2191869,
+                    2077809,
+                    2223828,
+                    2199883
+                ],
+                "artist": 351872,
+                "url": "https://genius.com/albums/Marco-barrientos/Ilumina",
+                "releaseDateComponents": {
+                    "day": null,
+                    "month": null,
+                    "year": 2012
+                },
+                "nameWithArtist": "Ilumina (artist: Marco Barrientos)",
+                "name": "Ilumina",
+                "id": 546275,
+                "fullTitle": "Ilumina by Marco Barrientos",
+                "coverArtUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.600x600x1.jpg",
+                "coverArtThumbnailUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.300x300x1.jpg",
+                "apiPath": "/albums/546275",
+                "type": "album"
+            }
+        },
+        "users": {
+            "1549345": {
+                "currentUserMetadata": {
+                    "interactions": {
+                        "following": false
+                    },
+                    "excludedPermissions": [
+                        "follow"
+                    ],
+                    "permissions": []
+                },
+                "url": "https://genius.com/pressburg",
+                "roleForDisplay": null,
+                "name": "pressburg",
+                "login": "pressburg",
+                "isVerified": false,
+                "isMemeVerified": false,
+                "iq": 0,
+                "id": 1549345,
+                "humanReadableRoleForDisplay": null,
+                "headerImageUrl": "https://images.rapgenius.com/avatars/medium/04d14b7ca5774ab1736acddc83edd261",
+                "avatar": {
+                    "medium": {
+                        "boundingBox": {
+                            "height": 400,
+                            "width": 300
+                        },
+                        "url": "https://images.rapgenius.com/avatars/medium/04d14b7ca5774ab1736acddc83edd261"
+                    },
+                    "small": {
+                        "boundingBox": {
+                            "height": 100,
+                            "width": 100
+                        },
+                        "url": "https://images.rapgenius.com/avatars/small/04d14b7ca5774ab1736acddc83edd261"
+                    },
+                    "thumb": {
+                        "boundingBox": {
+                            "height": 32,
+                            "width": 32
+                        },
+                        "url": "https://images.rapgenius.com/avatars/thumb/04d14b7ca5774ab1736acddc83edd261"
+                    },
+                    "tiny": {
+                        "boundingBox": {
+                            "height": 16,
+                            "width": 16
+                        },
+                        "url": "https://images.rapgenius.com/avatars/tiny/04d14b7ca5774ab1736acddc83edd261"
+                    }
+                },
+                "apiPath": "/users/1549345",
+                "aboutMeSummary": "If you come up with any problems, please send a private message to this account.",
+                "type": "user"
+            }
+        },
+        "annotations": {
+            "6687176": {
+                "verifiedBy": null,
+                "topComment": null,
+                "rejectionComment": null,
+                "createdBy": 1549345,
+                "cosignedBy": [],
+                "authors": [
+                    {
+                        "user": 1549345,
+                        "pinnedRole": null,
+                        "attribution": 1,
+                        "type": "user_attribution"
+                    }
+                ],
+                "acceptedBy": null,
+                "currentUserMetadata": {
+                    "iqByAction": {},
+                    "interactions": {
+                        "vote": null,
+                        "pyong": false,
+                        "cosign": false
+                    },
+                    "excludedPermissions": [
+                        "vote",
+                        "edit",
+                        "cosign",
+                        "uncosign",
+                        "destroy",
+                        "accept",
+                        "reject",
+                        "see_unreviewed",
+                        "clear_votes",
+                        "propose_edit_to",
+                        "pin_to_profile",
+                        "unpin_from_profile",
+                        "update_source",
+                        "edit_custom_preview",
+                        "create_comment"
+                    ],
+                    "permissions": []
+                },
+                "votesTotal": 0,
+                "verified": false,
+                "url": "https://genius.com/6687176/Marco-barrientos-ilumina/Ilumina",
+                "twitterShareMessage": "“?” —@Genius",
+                "state": "needs_exegesis",
+                "source": null,
+                "shareUrl": "https://genius.com/6687176",
+                "referentId": 6687176,
+                "pyongsCount": null,
+                "proposedEditCount": 0,
+                "pinned": false,
+                "needsExegesis": true,
+                "id": 6687176,
+                "hasVoters": false,
+                "embedContent":"<blockquote class='rg_standalone_container' data-src='//genius.com/annotations/6687176/standalone_embed'><a href='https://genius.com/6687176/Marco-barrientos-ilumina/Ilumina'>Ilumina<\/a><br><a href='https://genius.com/Marco-barrientos-ilumina-lyrics'>&#8213; Marco Barrientos – Ilumina<\/a><\/blockquote><script async crossorigin src='//genius.com/annotations/load_standalone_embeds.js'><\/script>",
+                "deleted": false,
+                "customPreview": null,
+                "createdAt": 1432941545,
+                "community": true,
+                "commentCount": 0,
+                "body": {
+                    "markdown": "",
+                    "html": ""
+                },
+                "beingCreated": false,
+                "apiPath": "/annotations/6687176",
+                "type": "annotation"
+            }
+        },
+        "referents": {
+            "6687176": {
+                "annotations": [
+                    6687176
+                ],
+                "annotatable": {
+                    "url": "https://genius.com/Marco-barrientos-ilumina-lyrics",
+                    "type": "song",
+                    "title": "Ilumina",
+                    "linkTitle": "Ilumina by Marco Barrientos",
+                    "imageUrl": "https://images.genius.com/5f037a621839c01da68fcedb8d0baa79.600x600x1.jpg",
+                    "id": 1999668,
+                    "context": "Marco Barrientos",
+                    "clientTimestamps": {
+                        "lyricsUpdatedAt": 1432941545,
+                        "updatedByHumanAt": 1563744886
+                    },
+                    "apiPath": "/songs/1999668"
+                },
+                "twitterShareMessage": "“?” —@Genius",
+                "trackingPaths": {
+                    "concurrent": "/Marco-barrientos-ilumina-lyrics",
+                    "aggregate": "/6687176/Marco-barrientos-ilumina/Ilumina"
+                },
+                "currentUserMetadata": {
+                    "relationships": {},
+                    "excludedPermissions": [
+                        "add_pinned_annotation_to",
+                        "add_community_annotation_to"
+                    ],
+                    "permissions": []
+                },
+                "verifiedAnnotatorIds": [],
+                "url": "https://genius.com/6687176/Marco-barrientos-ilumina/Ilumina",
+                "songId": 1999668,
+                "range": {
+                    "content": "Ilumina"
+                },
+                "path": "/6687176/Marco-barrientos-ilumina/Ilumina",
+                "isImage": false,
+                "isDescription": true,
+                "iosAppUrl": "genius://referents/6687176",
+                "id": 6687176,
+                "fragment": "Ilumina",
+                "classification": "needs_exegesis",
+                "apiPath": "/referents/6687176",
+                "annotatorLogin": "pressburg",
+                "annotatorId": 1549345,
+                "type": "referent"
+            }
+        }
+    }
+}

@@ -1,11 +1,11 @@
 namespace TestCode;
 
-public class cs
+public class Program
 {
-    static void Main(){
-        Load(".enxv");
-        Console.WriteLine(Environment.GetEnvironmentVariable("var2"));
-
+    public static async Task Main(){
+        GeniusLyricsLibrary.GeniusApi Ga = new GeniusLyricsLibrary.GeniusApi();
+       string lyrics = await Ga.GetLyricsforSearch("Hermoso nombre Hillsong");
+       Console.WriteLine(lyrics);
     }
     public static void Load(string filePath)
     {

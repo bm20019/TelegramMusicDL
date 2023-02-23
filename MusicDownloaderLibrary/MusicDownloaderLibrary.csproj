@@ -16,4 +16,7 @@
     <PackageReference Include="YoutubeExplode" Version="6.2.5" />
     <PackageReference Include="YTSearch.NET" Version="1.0.1" />
 </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GeniusLyricsLibrary\GeniusLyricsLibrary.csproj" />
+  </ItemGroup>
 </Project>
