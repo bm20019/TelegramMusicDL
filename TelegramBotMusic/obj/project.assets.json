@@ -260,12 +260,26 @@
           "bin/placeholder/DeezerApi.dll": {}
         }
       },
+      "GeniusLyricsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.46"
+        },
+        "compile": {
+          "bin/placeholder/GeniusLyricsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeniusLyricsLibrary.dll": {}
+        }
+      },
       "MusicDownloaderLibrary/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
           "ConvertAudioLibrary": "1.0.0",
           "DeezerApi": "1.0.0",
+          "GeniusLyricsLibrary": "1.0.0",
           "MusixmathSearch": "1.0.0",
           "SpotifyAPI.Web": "7.0.0",
           "SpotifyAPI.Web.Auth": "7.0.0",
@@ -712,6 +726,11 @@
       "type": "project",
       "path": "../DeezerApi/DeezerApi.csproj",
       "msbuildProject": "../DeezerApi/DeezerApi.csproj"
+    },
+    "GeniusLyricsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GeniusLyricsLibrary/GeniusLyricsLibrary.csproj",
+      "msbuildProject": "../GeniusLyricsLibrary/GeniusLyricsLibrary.csproj"
     },
     "MusicDownloaderLibrary/1.0.0": {
       "type": "project",

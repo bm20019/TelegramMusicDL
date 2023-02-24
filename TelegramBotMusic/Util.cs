@@ -3,8 +3,9 @@ using System.Text.RegularExpressions;
 namespace TelegramDownloadMusic;
 public class Utils
 {
-    public Utils(){
-        
+    public Utils()
+    {
+
     }
     const string spotify1 = "https://open.spotify.com";
     const string deezer1 = "https://deezer.page.link";
@@ -61,10 +62,14 @@ public class Utils
                 Regex regex = new Regex("https://deezer\\.page\\.link/[A-Za-z0-9]+", RegexOptions.IgnoreCase);
                 return regex.IsMatch(input);
             }
-            else if (input.Contains("deezer.com/track"))
+            else if (input.Contains("deezer.com/"))
             {
-                Regex regex = new Regex("https://www\\.deezer\\.com/[a-zA-Z]+/[a-zA-Z]+/[0-9]+", RegexOptions.IgnoreCase);
-                return regex.IsMatch(input);
+                Regex regex1 = new Regex("https://www\\.deezer\\.com/[a-zA-Z]+/[a-zA-Z]+/[0-9]+", RegexOptions.IgnoreCase);
+                Regex regex2 = new Regex("https://www\\.deezer\\.com/[A-Za-z]+/track/[A-Za-z0-9]+", RegexOptions.IgnoreCase);
+                if (regex1.IsMatch(input))
+                    return true;
+                else if (regex2.IsMatch(input))
+                    return true;
             }
         }
         else if (server == Servidor.YouTubeVideo)

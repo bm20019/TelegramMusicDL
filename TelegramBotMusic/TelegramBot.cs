@@ -29,7 +29,9 @@
                 // StartReceiving does not block the caller thread. Receiving is done on the ThreadPool.
                 ReceiverOptions receiverOptions = new()
                 {
-                    AllowedUpdates = Array.Empty<UpdateType>() // receive all update types
+                    AllowedUpdates = Array.Empty<UpdateType>(), // receive all update types
+                    Limit = 100,
+                    ThrowPendingUpdates = true
                 };
                 
                 botClient.StartReceiving(
@@ -40,7 +42,7 @@
                 );
                 var me = await botClient.GetMeAsync();
 
-                Console.WriteLine($"Start listening for @{me.Username}");
+                Console.WriteLine($"Empezar a escuchar @{me.Username}");
                 Console.ReadLine();
 
                 // Send cancellation request to stop bot
@@ -255,12 +257,21 @@
                 { 
                     da += item+"\n"; 
                 }
-                await botClient.SendTextMessageAsync(
+                try
+                {
+                    await botClient.SendTextMessageAsync(
                     chatId: update.Message.Chat.Id, 
                     text: ex.Message+"\n"+da, 
                     cancellationToken: cancellationToken
                 ); 
                 Console.WriteLine($"{ex.Message}\n{ex.Source}\n{ex.GetBaseException()}"); 
+                }
+                catch (System.Exception e)
+                {
+                    Console.WriteLine($"{e.Message}\n{e.Source}\n{e.GetBaseException()}"); 
+                   Console.WriteLine("No se pudo enviar el Mensaje");
+                }
+                
             }
             private static void CreateFolder(long id){
                 var chatFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),""+id);

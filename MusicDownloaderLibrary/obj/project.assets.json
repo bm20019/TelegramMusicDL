@@ -244,6 +244,19 @@
           "bin/placeholder/DeezerApi.dll": {}
         }
       },
+      "GeniusLyricsLibrary/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.46"
+        },
+        "compile": {
+          "bin/placeholder/GeniusLyricsLibrary.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/GeniusLyricsLibrary.dll": {}
+        }
+      },
       "MusixmathSearch/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
@@ -658,6 +671,11 @@
       "path": "../DeezerApi/DeezerApi.csproj",
       "msbuildProject": "../DeezerApi/DeezerApi.csproj"
     },
+    "GeniusLyricsLibrary/1.0.0": {
+      "type": "project",
+      "path": "../GeniusLyricsLibrary/GeniusLyricsLibrary.csproj",
+      "msbuildProject": "../GeniusLyricsLibrary/GeniusLyricsLibrary.csproj"
+    },
     "MusixmathSearch/1.0.0": {
       "type": "project",
       "path": "../MusixmathSearch/MusixmathSearch.csproj",
@@ -678,6 +696,7 @@
     "net7.0": [
       "ConvertAudioLibrary >= 1.0.0",
       "DeezerApi >= 1.0.0",
+      "GeniusLyricsLibrary >= 1.0.0",
       "MusixmathSearch >= 1.0.0",
       "SpotifyAPI.Web >= 7.0.0",
       "SpotifyAPI.Web.Auth >= 7.0.0",
@@ -717,6 +736,9 @@
             },
             "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj": {
               "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj"
+            },
+            "/home/adalberto/Proyectos/TelegramMusicDL/GeniusLyricsLibrary/GeniusLyricsLibrary.csproj": {
+              "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/GeniusLyricsLibrary/GeniusLyricsLibrary.csproj"
             },
             "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/MusixmathSearch.csproj": {
               "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/MusixmathSearch.csproj"

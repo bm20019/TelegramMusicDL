@@ -16,7 +16,6 @@ namespace DeezerApi
         {
             string url_Base = "https://api.deezer.com/track/";
             string body = await CallUrl(url);
-            string search = "https://www.deezer.com/es/track/";
             string id = System.Text.RegularExpressions.Regex.Matches(body,"track/[0-9]+")[0].Value.Remove(0,6);
             return url_Base+id;//+extr;
         }
