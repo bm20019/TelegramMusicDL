@@ -72,9 +72,10 @@
                 if (message.Text is not { } messageText) 
                     return;
                 long chatId = message.Chat.Id;
-                CreateFolder(chatId);
-                string nameFileConfig = "config.json";
-                if (System.IO.File.Exists(Path.Combine(Environment.CurrentDirectory, nameFileConfig))==false)
+                string folderID = CreateFolder(chatId);
+                string nameFileConfig = Path.Combine(folderID,"config.json");
+                //System.IO.File.Exists(Path.Combine(Environment.CurrentDirectory, nameFileConfig))
+                if (System.IO.File.Exists(nameFileConfig)==false)
                 {
                    System.IO.File.WriteAllText(nameFileConfig, "{\"Bitrate\":128,\"Format\":\"libmp3lame\",\"Template\":\"{trackNumber} {title}\"}");
                 }
@@ -155,7 +156,7 @@
                 if (Utils.UrlServerIs(messageText))
                 {
                     Download dl = new Download();
-                    string path = Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments);
+                    string pathIDFoler = folderID;//Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),""+update.Message.Chat.Id);
                     Bitrate bit = Bitrate.btr_320;
                     Codecs codecs = Codecs.libmp3lame; 
                     if (config != null)
@@ -174,7 +175,7 @@
                   } 
                   try 
                   { 
-                      photoFile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.Personal), datainfo.id + ".jpeg"); 
+                      photoFile = Path.Combine(pathIDFoler, datainfo.id + ".jpeg"); 
                       downloadPictureUri(new Uri(dl.GetCovertArtMax()), photoFile); 
                       InputFile foto = new InputFile(System.IO.File.OpenRead(photoFile), Guid.NewGuid().ToString() + ".jpeg");
                         try
@@ -189,16 +190,16 @@
                                 );
                             
                             //Descargando Audio
-                            await dl.MusicDownload(messageText, new DirectoryInfo(path), bit,codecs);
+                            await dl.MusicDownload(messageText, new DirectoryInfo(pathIDFoler), bit, codecs);
                             string fd = dl.PathFileOutput();
                             await using FileStream stream = System.IO.File.OpenRead(fd);
-                            InputFile s = new InputFile(stream, new FileInfo(fd).Name);
+                            InputFile musicDownload = new InputFile(stream, new FileInfo(fd).Name);
                             try
                             { 
                                 Console.WriteLine("Enviando Audio...");
                                 await botClient.SendAudioAsync(
                                     chatId: chatId, 
-                                    audio: s, 
+                                    audio: musicDownload, 
                                     cancellationToken: cancellationToken
                             );
                                 Console.WriteLine("Eliminando Datos...");
@@ -273,10 +274,11 @@
                 }
                 
             }
-            private static void CreateFolder(long id){
+            private static string CreateFolder(long id){
                 var chatFolder = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.MyDocuments),""+id);
                 Directory.CreateDirectory(chatFolder);
                 Directory.SetCurrentDirectory(chatFolder);
+                return chatFolder;
             }
         }
     }

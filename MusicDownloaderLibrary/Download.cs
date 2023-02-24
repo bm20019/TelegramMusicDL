@@ -57,7 +57,7 @@ namespace MusicDownloaderLibrary
                 SpotifyClass.SpotifyClass spotifyClass = new SpotifyClass.SpotifyClass(spotifyClient);
                 SpotifyClass.ModelSpotify modelSpotify = spotifyClass.GetFullData(urlMusic);
                 Query = $"{modelSpotify.GetTitle()} - {modelSpotify.GetTrackArtist()[0]}";
-                QueryLyrics = $"{modelSpotify.GetTitle()} - {modelSpotify.GetTrackArtist()[0]}";
+                QueryLyrics = $"{modelSpotify.GetTitle()}  {modelSpotify.GetTrackArtist()[0]}";
                 timeOriginal = Convert.ToInt32(modelSpotify.GetDuration());
                 pathPicute = Path.Combine(GetTempFolder(), modelSpotify.GetIdSong() + ".jpeg");
                 PictureArtUrl = modelSpotify.GetCovertArtMax().AbsoluteUri;
@@ -71,8 +71,8 @@ namespace MusicDownloaderLibrary
                 Deezer? dz = DC.GetDeezer(urlMusic);
                 if (dz == null)
                     throw new Exception("Deezer return null");
-                Query = $"{dz.title} - {dz.artist.name}";
-                QueryLyrics = $"{dz.title} - {dz.artist.name}";
+                Query = $"{dz.title}  {dz.artist.name}";
+                QueryLyrics = $"{dz.title}  {dz.artist.name}";
                 timeOriginal = Convert.ToInt32(dz.duration);
                 pathPicute = Path.Combine(GetTempFolder(), dz.id + ".jpeg");
                 PictureArtUrl = dz.album.cover_big.AbsoluteUri;
@@ -100,7 +100,7 @@ namespace MusicDownloaderLibrary
                 downloadPictureUri(new Uri(PictureArtUrl), pathPicute);
                 datos = new Metadata(config.GetDateTimeWordl(), md.Id, md.Title, "", md.Album, new string[] { md.Artist }, "", new string[] { md.Artist }, 0, 0, 1, 0, Convert.ToUInt32(md.Year), "", new string[] { "Unknown" }, "", "", "", "", "", pathPicute);
                 urlDownloader = urlMusic;
-                QueryLyrics = $"{datos.Title} - {datos.Performers[0]}";
+                QueryLyrics = $"{datos.Title}  {datos.Performers[0]}";
             }
             else
             {
@@ -110,6 +110,7 @@ namespace MusicDownloaderLibrary
             //Get Lyrics
             try
             {
+                Console.WriteLine(QueryLyrics);
                 datos.Lyrics = GetLyrics(QueryLyrics);
             }
             catch (Exception ex)
@@ -118,12 +119,13 @@ namespace MusicDownloaderLibrary
                 GeniusLyricsLibrary.GeniusApi Ga = new GeniusLyricsLibrary.GeniusApi();
                 try
                 {
-                    string lyrics = await Ga.GetLyricsforSearch("Hermoso nombre Hillsong");
+                    string lyrics = await Ga.GetLyricsforSearch(QueryLyrics);
                     datos.Lyrics = lyrics;
                 }
                 catch (Exception exp)
                 {
-                    Console.WriteLine("Lyrics not Found");
+                    Console.WriteLine(exp.Message);
+                    Console.WriteLine(" Lyrics not Found");
                 }
             }
 
