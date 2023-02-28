@@ -1,40 +1,41 @@
-using TagLib.Id3v2;
 using Xabe.FFmpeg;
 
 namespace ConvertAudioLibrary
 {
     public class ConvertAudio
     {
-        public void TagSet(string pathFile, Metadata metadata)
+        private void TagSet(string pathFile, Metadata metadata)
         {
-            Tag.DefaultEncoding = TagLib.StringType.UTF8;
-            Tag.ForceDefaultEncoding = true;
-            Tag.DefaultVersion = 3;
             TagLib.File file = TagLib.File.Create(pathFile);
-            file.Tag.Title = metadata.Title;
-            file.Tag.Album = metadata.Album;
-            file.Tag.Performers = metadata.Performers;
-            file.Tag.AlbumArtists = metadata.Performers;
-            file.Tag.Comment = metadata.Comment;
-            file.Tag.Composers = metadata.Composers;
-            file.Tag.Disc = metadata.Disc;
-            file.Tag.DiscCount = metadata.DiscCount;
-            file.Tag.TrackCount = metadata.TrackCount;
-            file.Tag.Track = metadata.Track;
-            file.Tag.Year = metadata.Year;
-            file.Tag.Lyrics = metadata.Lyrics;
-            file.Tag.Genres = metadata.Genres;
-            file.Tag.ISRC = metadata.ISRC;
-            file.Tag.Conductor = metadata.Conductor;
-            file.Tag.Copyright = metadata.Copyright;
-            file.Tag.DateTagged = metadata.DateTagged;
-            file.Tag.Grouping = metadata.Grouping;
-            file.Tag.Publisher = metadata.Publisher;
-            
+            TagLib.Id3v2.Tag.DefaultVersion=3;
+            TagLib.Id3v2.Tag.ForceDefaultVersion=true;
+            TagLib.Id3v2.Tag.DefaultEncoding = TagLib.StringType.UTF16;
+            TagLib.Id3v2.Tag.ForceDefaultEncoding = true;
+            TagLib.Id3v2.Tag tag = (TagLib.Id3v2.Tag)file.GetTag(TagLib.TagTypes.Id3v2);
+
+            tag.Title = metadata.Title;
+            tag.Album = metadata.Album;
+            tag.Performers = metadata.Performers;
+            tag.AlbumArtists = metadata.Performers;
+            tag.Comment = metadata.Comment;
+            tag.Composers = metadata.Composers;
+            tag.Disc = metadata.Disc;
+            tag.DiscCount = metadata.DiscCount;
+            tag.TrackCount = metadata.TrackCount;
+            tag.Track = metadata.Track;
+            tag.Year = metadata.Year;
+            tag.Lyrics = metadata.Lyrics;
+            tag.Genres = metadata.Genres;
+            tag.ISRC = metadata.ISRC;
+            tag.Conductor = metadata.Conductor;
+            tag.Copyright = metadata.Copyright;
+            tag.DateTagged = metadata.DateTagged;
+            tag.Grouping = metadata.Grouping;
+            tag.Publisher = metadata.Publisher;
             if (metadata.PicturePath != null)
             {
                 TagLib.IPicture[] pictureArt = { new TagLib.Picture(metadata.PicturePath) };
-                file.Tag.Pictures = pictureArt;
+                tag.Pictures = pictureArt;
             }
             file.Save();
         }
@@ -75,7 +76,7 @@ namespace ConvertAudioLibrary
         public Metadata GetMetadata(){
             return metadata;
         }
-        string[] modelos = { "{title}", "{album}", "{artist}","{trackNumber}"};
+        string[] modelos = { "{title}", "{album}", "{artist}", "{trackNumber}"};
 
         private string name(string input, Metadata datos){
             //Title

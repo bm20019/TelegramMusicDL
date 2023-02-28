@@ -4,6 +4,137 @@
     "/home/adalberto/Proyectos/TelegramMusicDL/TestCode/TestCode.csproj": {}
   },
   "projects": {
+    "/home/adalberto/Proyectos/TelegramMusicDL/ConvertAudioLibrary/ConvertAudioLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adalberto/Proyectos/TelegramMusicDL/ConvertAudioLibrary/ConvertAudioLibrary.csproj",
+        "projectName": "ConvertAudioLibrary",
+        "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/ConvertAudioLibrary/ConvertAudioLibrary.csproj",
+        "packagesPath": "/home/adalberto/.nuget/packages/",
+        "outputPath": "/home/adalberto/Proyectos/TelegramMusicDL/ConvertAudioLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adalberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj"
+              },
+              "/home/adalberto/Proyectos/TelegramMusicDL/SpotifyClass/SpotifyClass.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/SpotifyClass/SpotifyClass.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "SpotifyAPI.Web": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "SpotifyAPI.Web.Auth": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "TagLibSharp": {
+              "target": "Package",
+              "version": "[2.3.0, )"
+            },
+            "Xabe.FFmpeg": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/adalberto/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj",
+        "projectName": "DeezerApi",
+        "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj",
+        "packagesPath": "/home/adalberto/.nuget/packages/",
+        "outputPath": "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adalberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/adalberto/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/adalberto/Proyectos/TelegramMusicDL/GeniusLyricsLibrary/GeniusLyricsLibrary.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -63,6 +194,214 @@
         }
       }
     },
+    "/home/adalberto/Proyectos/TelegramMusicDL/MusicDownloaderLibrary/MusicDownloaderLibrary.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adalberto/Proyectos/TelegramMusicDL/MusicDownloaderLibrary/MusicDownloaderLibrary.csproj",
+        "projectName": "MusicDownloaderLibrary",
+        "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/MusicDownloaderLibrary/MusicDownloaderLibrary.csproj",
+        "packagesPath": "/home/adalberto/.nuget/packages/",
+        "outputPath": "/home/adalberto/Proyectos/TelegramMusicDL/MusicDownloaderLibrary/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adalberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "/home/adalberto/Proyectos/TelegramMusicDL/ConvertAudioLibrary/ConvertAudioLibrary.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/ConvertAudioLibrary/ConvertAudioLibrary.csproj"
+              },
+              "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/DeezerApi/DeezerApi.csproj"
+              },
+              "/home/adalberto/Proyectos/TelegramMusicDL/GeniusLyricsLibrary/GeniusLyricsLibrary.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/GeniusLyricsLibrary/GeniusLyricsLibrary.csproj"
+              },
+              "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/MusixmathSearch.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/MusixmathSearch.csproj"
+              },
+              "/home/adalberto/Proyectos/TelegramMusicDL/SpotifyClass/SpotifyClass.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/SpotifyClass/SpotifyClass.csproj"
+              },
+              "/home/adalberto/Proyectos/TelegramMusicDL/YtmusicSearch/YtmusicSearch.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/YtmusicSearch/YtmusicSearch.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "SpotifyAPI.Web": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "SpotifyAPI.Web.Auth": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "YTSearch.NET": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[6.2.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/adalberto/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/MusixmathSearch.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/MusixmathSearch.csproj",
+        "projectName": "MusixmathSearch",
+        "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/MusixmathSearch.csproj",
+        "packagesPath": "/home/adalberto/.nuget/packages/",
+        "outputPath": "/home/adalberto/Proyectos/TelegramMusicDL/MusixmathSearch/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adalberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.46, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/adalberto/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/adalberto/Proyectos/TelegramMusicDL/SpotifyClass/SpotifyClass.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adalberto/Proyectos/TelegramMusicDL/SpotifyClass/SpotifyClass.csproj",
+        "projectName": "SpotifyClass",
+        "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/SpotifyClass/SpotifyClass.csproj",
+        "packagesPath": "/home/adalberto/.nuget/packages/",
+        "outputPath": "/home/adalberto/Proyectos/TelegramMusicDL/SpotifyClass/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adalberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "SpotifyAPI.Web": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/adalberto/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "/home/adalberto/Proyectos/TelegramMusicDL/TestCode/TestCode.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -87,6 +426,9 @@
             "projectReferences": {
               "/home/adalberto/Proyectos/TelegramMusicDL/GeniusLyricsLibrary/GeniusLyricsLibrary.csproj": {
                 "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/GeniusLyricsLibrary/GeniusLyricsLibrary.csproj"
+              },
+              "/home/adalberto/Proyectos/TelegramMusicDL/MusicDownloaderLibrary/MusicDownloaderLibrary.csproj": {
+                "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/MusicDownloaderLibrary/MusicDownloaderLibrary.csproj"
               }
             }
           }
@@ -100,6 +442,65 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/home/adalberto/.dotnet/sdk/7.0.200/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/adalberto/Proyectos/TelegramMusicDL/YtmusicSearch/YtmusicSearch.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/adalberto/Proyectos/TelegramMusicDL/YtmusicSearch/YtmusicSearch.csproj",
+        "projectName": "YtmusicSearch",
+        "projectPath": "/home/adalberto/Proyectos/TelegramMusicDL/YtmusicSearch/YtmusicSearch.csproj",
+        "packagesPath": "/home/adalberto/.nuget/packages/",
+        "outputPath": "/home/adalberto/Proyectos/TelegramMusicDL/YtmusicSearch/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/adalberto/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "YoutubeExplode": {
+              "target": "Package",
+              "version": "[6.2.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

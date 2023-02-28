@@ -174,7 +174,7 @@ namespace YTMUSICAPI
                         d.microformat.microformatDataRenderer.tags[1],
                         d.microformat.microformatDataRenderer.videoDetails.durationSeconds,
                         d.videoDetails.thumbnail.thumbnails.Last().url,
-                        d.microformat.microformatDataRenderer.GetYear());
+                        d.microformat.microformatDataRenderer.year);
                 }
             }
         }
@@ -185,10 +185,6 @@ namespace YTMUSICAPI
             int cont = json.IndexOf("data: '{\"response") + 7;
             string nuevo = json.Remove(0, cont);
             return nuevo;
-        }
-        public void Deserializar()
-        {
-            string file = File.ReadAllText(Environment.GetFolderPath(Environment.SpecialFolder.Desktop) + "/JsonAPI.json");
         }
         public string GetJson()
         {

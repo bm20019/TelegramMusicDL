@@ -76,38 +76,9 @@ public class ModelSpotify
     public uint GetYear()
     {
         string input = fullTrack.Album.ReleaseDate;
-        if (input.Contains('-'))
-        {
-            string[] datas = input.Split('-');
-            List<int> datInt = new List<int>();
-
-            foreach (string item in datas)
-            {
-                datInt.Add(Convert.ToInt32(item));
-            }
-            int max = datInt.Max();
-            return Convert.ToUInt32(max);
-        }
-        else if (input.Contains('/'))
-        {
-            string[] datas = input.Split('/');
-            List<int> datInt = new List<int>();
-
-            foreach (string item in datas)
-            {
-                datInt.Add(Convert.ToInt32(item));
-            }
-            int max = datInt.Max();
-            return Convert.ToUInt32(max);
-        }
-        else if (new Regex("[0-9]+", RegexOptions.IgnoreCase).IsMatch(input))
-        {
-            return Convert.ToUInt32(input);
-        }
-        else
-        {
-            return 0;
-        }
+        string re = new Regex("\\d\\d\\d\\d").Match(input).Value;
+        uint r = string.IsNullOrEmpty(re) == true ? Convert.ToUInt32("0") : Convert.ToUInt32(re);
+        return r;
     }
 
     public uint GetTrackNumber()
