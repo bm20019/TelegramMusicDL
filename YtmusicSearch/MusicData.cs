@@ -11,7 +11,7 @@ public class MusicData
     
     public string Year { get; set; }
 
-    public MusicData(string Id, string Title, string Artist,string Album,string time,string PictureUrl,string year="")
+    public MusicData(string Id, string Title, string Artist,string Album,string time,string PictureUrl,string year="0")
     {
         this.Id = Id;
         this.Title = Title;

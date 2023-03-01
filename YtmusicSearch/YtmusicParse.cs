@@ -16,9 +16,8 @@ namespace YTMUSICAPI
                 timeSS.Add(t);
             }
         }
-        public YtmusicParse()
-        {
 
+        public YtmusicParse(){
         }
 
         public void SetIdsAndTimes(List<string> ids, List<string> time)
